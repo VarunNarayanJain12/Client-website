@@ -43,11 +43,11 @@ const AboutSection = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              About <span className="bg-gradient-primary bg-clip-text text-transparent">TradeCorp</span>
+              About <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Varun Enterprises</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Since 2008, we've been at the forefront of government and corporate trading, 
-              building bridges between opportunity and success for our valued clients.
+              building bridges between opportunity and success for our valued clients across India.
             </p>
           </div>
 
@@ -57,14 +57,14 @@ const AboutSection = () => {
               <h3 className="text-3xl font-semibold text-foreground mb-4">Our Journey</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Founded with a vision to simplify the complex world of government tenders and 
-                corporate trading, TradeCorp has grown from a small startup to a nationally 
+                corporate trading, Varun Enterprises has grown from a small startup to a nationally 
                 recognized trading house. We specialize in connecting businesses with lucrative 
                 opportunities in the public and private sectors.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Our expertise spans across multiple industries including energy, infrastructure, 
                 manufacturing, and technology. We've successfully facilitated over ₹500 crores 
-                worth of transactions, helping our clients grow and prosper.
+                worth of transactions, helping our clients grow and prosper in the competitive market.
               </p>
 
               {/* Certifications */}

@@ -64,7 +64,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2 space-y-6">
             <div>
-              <h2 className="text-3xl font-bold mb-4">TradeCorp</h2>
+              <h2 className="text-3xl font-bold mb-4">Varun Enterprises</h2>
               <p className="text-primary-foreground/90 text-lg leading-relaxed">
                 Your trusted partner for government tenders and corporate trading solutions. 
                 Building bridges between opportunity and success since 2008.
@@ -76,7 +76,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <MapPin className="h-5 w-5 text-secondary-light flex-shrink-0" />
                 <span className="text-primary-foreground/90">
-                  123 Business Tower, Sector 14, Gurgaon, Haryana - 122001
+                  Mumbai Business District, Maharashtra - 400001
                 </span>
               </div>
               <div className="flex items-center gap-3">
@@ -87,8 +87,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-secondary-light flex-shrink-0" />
-                <a href="mailto:info@tradecorp.in" className="text-primary-foreground/90 hover:text-secondary-light transition-colors">
-                  info@tradecorp.in
+                <a href="mailto:info@varunenterprises.com" className="text-primary-foreground/90 hover:text-secondary-light transition-colors">
+                  info@varunenterprises.com
                 </a>
               </div>
             </div>
@@ -187,7 +187,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-primary-foreground/80 text-sm">
-            © 2024 TradeCorp. All rights reserved. | Registered Company No: U12345DL2008PTC123456
+            © 2024 Varun Enterprises. All rights reserved. | Registered Company No: U12345MH2008PTC123456
           </div>
           <div className="flex items-center gap-6 text-sm text-primary-foreground/80">
             <span>ISO 9001:2015 Certified</span>

@@ -30,8 +30,8 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: "Our Office",
-      content: "123 Business Tower, Sector 14, Gurgaon, Haryana - 122001",
-      link: "https://maps.google.com/?q=Gurgaon+Haryana"
+      content: "Mumbai Business District, Maharashtra - 400001",
+      link: "https://maps.google.com/?q=Mumbai+Maharashtra"
     },
     {
       icon: Phone,
@@ -42,8 +42,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email Address",
-      content: "info@tradecorp.in",
-      link: "mailto:info@tradecorp.in"
+      content: "info@varunenterprises.com",
+      link: "mailto:info@varunenterprises.com"
     },
     {
       icon: Clock,
@@ -110,6 +110,32 @@ const ContactSection = () => {
             </p>
           </div>
 
+          {/* WhatsApp CTA - Full Width at the Top */}
+          <Card className="bg-gradient-primary border-none w-full mb-12">
+            <CardContent className="p-6">
+              <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div className="flex items-center gap-4">
+                  <MessageCircle className="h-10 w-10 text-primary-foreground" />
+                  <div>
+                    <h4 className="font-semibold text-xl text-primary-foreground mb-1">
+                      Quick Support on WhatsApp
+                    </h4>
+                    <p className="text-primary-foreground/90">
+                      Get instant responses to your queries - available 24/7
+                    </p>
+                  </div>
+                </div>
+                <Button 
+                  onClick={openWhatsApp}
+                  className="bg-secondary hover:bg-secondary-light text-secondary-foreground px-6 py-3 text-base"
+                  size="lg"
+                >
+                  Chat Now
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+          
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div className="space-y-8">
@@ -153,28 +179,7 @@ const ContactSection = () => {
                 ))}
               </div>
 
-              {/* WhatsApp CTA */}
-              <Card className="bg-gradient-primary border-none">
-                <CardContent className="p-6">
-                  <div className="flex items-center gap-4">
-                    <MessageCircle className="h-8 w-8 text-primary-foreground" />
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-primary-foreground mb-1">
-                        Quick Support on WhatsApp
-                      </h4>
-                      <p className="text-primary-foreground/90 text-sm">
-                        Get instant responses to your queries
-                      </p>
-                    </div>
-                    <Button 
-                      onClick={openWhatsApp}
-                      className="bg-secondary hover:bg-secondary-light text-secondary-foreground"
-                    >
-                      Chat Now
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
+
             </div>
 
             {/* Contact Form */}
